@@ -14,7 +14,7 @@ function About(){
                     <div className="col">
                     <div className="card_description_brthdar">
                     <p><strong>Birthday:</strong><span>06 February 2000</span></p>
-                    <p><strong>Website:</strong><span><a href="#">www.google.com</a></span></p>
+                    <p><strong>Website:</strong><span><a href="https://ankush-roy-007.github.io/">Click me</a></span></p>
                     <p><strong>Phone:</strong><span>+91 9660485934</span></p>
                         <p><strong>City:</strong><span>Pune, Maharastra</span></p>
                     </div>
