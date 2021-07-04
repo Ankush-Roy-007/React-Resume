@@ -21,7 +21,7 @@ function About(){
                 </div>
                 <div className="col">
                 <div className="card_description_brthdar small_screen_div_age">
-                        <p><strong>Age:</strong><span>30</span></p>
+                        <p><strong>Age:</strong><span>21</span></p>
                         <p><strong>Degree:</strong><span>Bachelor of Engineer</span></p>
                         <p><strong>Freelance:</strong><span>Available</span></p>   
                     </div>
