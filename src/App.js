@@ -11,12 +11,12 @@ function App() {
    <>
    <Navbar />
    <Switch>
-     <Route exact path='/' component={Homepage}/>
-     <Route exact path='/about' component={About}/>
-     <Route exact path='/resume' component={Resume}/>
-     <Route exact path='/certifications' component={Certificate}/>
-     <Route exact path='/projects' component={Project}/>
-     <Route exact path='/contact' component={Contact}/>
+     <Route exact path='/React-Resume/' component={Homepage}/>
+     <Route exact path='/React-Resume/about' component={About}/>
+     <Route exact path='/React-Resume/resume' component={Resume}/>
+     <Route exact path='/React-Resume/certifications' component={Certificate}/>
+     <Route exact path='/React-Resume/projects' component={Project}/>
+     <Route exact path='/React-Resume/contact' component={Contact}/>
    </Switch>
    </>
   );
