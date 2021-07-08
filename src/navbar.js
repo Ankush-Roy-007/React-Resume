@@ -47,27 +47,27 @@ function Navbar() {
                 </NavLink>
             </div>
             <div className='col'>
-                <NavLink exact to='/React-Resume/about' activeClassName="activelink" className='link_color'>
+                <NavLink  to='/React-Resume/about' activeClassName="activelink" className='link_color'>
                     ABOUT
                 </NavLink>
             </div>
             <div className='col'>
-                <NavLink exact to='/React-Resume/resume' activeClassName="activelink" className='link_color'>
+                <NavLink  to='/React-Resume/resume' activeClassName="activelink" className='link_color'>
                     RESUME
                 </NavLink>
             </div>
             <div className='col'>
-                <NavLink exact to='/React-Resume/certifications' activeClassName="activelink" className='link_color'>
+                <NavLink  to='/React-Resume/certifications' activeClassName="activelink" className='link_color'>
                     CERTIFICATIONS
                 </NavLink>
             </div>
             <div className='col'>
-                <NavLink exact to='/React-Resume/projects' activeClassName="activelink" className='link_color'>
+                <NavLink  to='/React-Resume/projects' activeClassName="activelink" className='link_color'>
                     PROJECTS
                 </NavLink>
             </div>
             <div className='col'>
-                <NavLink exact to='/React-Resume/contact' activeClassName="activelink" className='link_color'>
+                <NavLink  to='/React-Resume/contact' activeClassName="activelink" className='link_color'>
                   CONTACT
                 </NavLink>
             </div>
