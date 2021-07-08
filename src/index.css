@@ -2,6 +2,7 @@
  padding-left:40px;
  padding-top: 20px;
  font-size: 30px;
+
 }
 .link_color{
   text-decoration: none;
@@ -14,6 +15,17 @@
   text-decoration: none;
   color: #0A1115;
 }
+
+
+@media(max-width:1400px){
+  .seperate_link .col{
+    margin-bottom: 10px;
+  }
+  .total_navbar_background .logo{
+    margin-top: 0px;
+  }
+}
+
 .seperate_link{
   text-align: center;
   padding-top: 20px !important;
@@ -39,9 +51,9 @@
 .link_color:hover{
   font-size: 18px;
   background-color: #8D6D53;
-  border-radius: 15px;
-  color: black;
-  
+  border-radius:10px;
+  color: white;
+  padding: 5px 10px;  
 }
 .link_color_logo:hover{
   color: #8D6D53;
@@ -348,13 +360,27 @@ body{
 .about_small_screen_div{
   margin-top: 40px;
 }
-.small_screen_div_age{
-  margin-top: -40px;
-}
+
 .about_full_desc{
-  margin-top: -40px;
+  margin-top: -10px;
 }
 .all_input_contact{
   margin-top: 30px;
 }
+.total_navbar_background .logo{
+  margin-bottom: 5px;
+}
+}
+@media(max-width:756px){
+  .about_full_desc{
+    margin-top: 20px !important;
+  }
+}
+@media(max-width:506px){
+  .about_full_desc{
+    margin-top: -50px !important;
+  }
+  .small_screen_div_age{
+    margin-top: -40px;
+  }
 }
