@@ -42,32 +42,32 @@ function Navbar() {
         <div className='row'>
             <div className="row seperate_link col-lg-8">
             <div className='col'>
-                <NavLink exact to='/React-Resume/' activeClassName="activelink"  className='link_color'>
+                <NavLink exact to='/' activeClassName="activelink"  className='link_color'>
                     HOME
                 </NavLink>
             </div>
             <div className='col'>
-                <NavLink  to='/React-Resume/about' activeClassName="activelink" className='link_color'>
+                <NavLink  to='/about' activeClassName="activelink" className='link_color'>
                     ABOUT
                 </NavLink>
             </div>
             <div className='col'>
-                <NavLink  to='/React-Resume/resume' activeClassName="activelink" className='link_color'>
+                <NavLink  to='/resume' activeClassName="activelink" className='link_color'>
                     RESUME
                 </NavLink>
             </div>
             <div className='col'>
-                <NavLink  to='/React-Resume/certifications' activeClassName="activelink" className='link_color'>
+                <NavLink  to='/certifications' activeClassName="activelink" className='link_color'>
                     CERTIFICATIONS
                 </NavLink>
             </div>
             <div className='col'>
-                <NavLink  to='/React-Resume/projects' activeClassName="activelink" className='link_color'>
+                <NavLink  to='/projects' activeClassName="activelink" className='link_color'>
                     PROJECTS
                 </NavLink>
             </div>
             <div className='col'>
-                <NavLink  to='/React-Resume/contact' activeClassName="activelink" className='link_color'>
+                <NavLink  to='/contact' activeClassName="activelink" className='link_color'>
                   CONTACT
                 </NavLink>
             </div>
